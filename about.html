@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website About</title>
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <!-- had to add "defer" to the js script source. The eventhandler was executing before the page loaded -->
+    <!-- This took a while to figure out -->
+    <script src="javascript.js" defer></script>
 </head>
 <body>
     <div class="backgroundheader">
@@ -26,7 +28,8 @@
       </ul>
       
       <img class="about" src="images/self.jpeg" alt="Paris">
-      <p class= "abouttext">
+
+      <p id="one" class="abouttext">
         A late bloomer, once I found my path (dream, really) I held strong. I continue to find opportunities for growth and learning. As a new employee to Amazon, I took the challenge of being trained in many positions to heart; obtaining certifications and permissions for over a dozen positions and growing.
         </br>
         </br>
@@ -37,8 +40,7 @@
       </p>
 
       
-
-
+      <p id="mouseresult"></p>
       
 </body>
 </html>
