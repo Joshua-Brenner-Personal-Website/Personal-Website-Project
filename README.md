@@ -1,2 +1,3 @@
 # Personal-Website-Project
-Comfortable with extreme challenges Life-long learner 
+A personal website describing projects, a mission, and some things about me
+
