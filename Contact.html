@@ -31,23 +31,47 @@
     </ul>
 
     <br />
-    <!-- The form linked to the submitted page -->
-    <form action="submitted.html" method="get" id="emailform">
-      <!-- Form Header -->
-      <h2>Please Enter Your Email Address</h2>
-      <label for="useremail">Email:</label>
-      <input type="text" id="useremail" name="useremail" /><br /><br />
-      <!-- <p> Please click the submit button below to complete the process</p>       -->
+    <div class="form">
+      <!-- The form linked to the submitted page -->
+      <form action="submitted.html" method="get" id="emailform">
+        <!-- name -->
+        <h4>
+          Please Enter Your First and Last Name <br />
+          <h5>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" /> <br />
 
-      <button
-        type="submit"
-        class="formsubbtn"
-        id="formsubbtn"
-        form="emailform"
-        value="Submit"
-      >
-        Submit
-      </button>
-    </form>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" /><br /><br />
+          </h5>
+        </h4>
+        <h4>
+          <!-- email -->
+          Please Enter Your Email Address
+          <br />
+          <input
+            type="text"
+            id="useremail"
+            name="useremail"
+          /><br /><br /><br />
+
+          <!-- message -->
+          Please Enter Your Message
+          <br />
+          <input type="text" id="useremail" name="useremail" /><br /><br />
+        </h4>
+
+        <!-- submit -->
+        <button
+          type="submit"
+          class="formsubbtn"
+          id="formsubbtn"
+          form="emailform"
+          value="Submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
   </body>
 </html>
