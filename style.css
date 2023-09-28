@@ -141,3 +141,38 @@ p.abouttext {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+form {  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;}
+
+
+/* formsubmission */
+.formsubbtn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 10em;
+  height: 5ex;
+  background-color: rgb(120, 223, 209);
+  border: 2px solid rgb(116, 88, 88);
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.formsubbtn:hover {
+  background-color: bisque;
+}
+
+div.formsubmission {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
